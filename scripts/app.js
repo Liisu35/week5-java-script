@@ -1,6 +1,7 @@
 const container = document.querySelector('.container');
 const movieTitle = document.querySelector('.userInputTitle');
 const moviePosterUrl = document.querySelector('.userInputPosterUrl');
+const releaseDate = document.querySelector('.release-date');
 const btn = document.querySelector('.button');
 const movieTitleToDisplay = document.querySelector('.favoriteMovieTitle');
 
@@ -26,4 +27,5 @@ btn.addEventListener('click', () => {
     url('${posterUrlInput}')`;
     movieTitle.value = '';
     moviePosterUrl.value = '';
+    
 });
